@@ -2,15 +2,15 @@
 const timers = [
   {
     id: 1,
-    defaultTime: 120,
-    currentTime: 120,
+    defaultTime: 10,
+    currentTime: 10,
     isRunning: false,
     interval: null,
   }, // Timer 1 - 2 minutes
   {
     id: 2,
-    defaultTime: 300,
-    currentTime: 300,
+    defaultTime: 60,
+    currentTime: 60,
     isRunning: false,
     interval: null,
   }, // Timer 2 - 5 minutes
