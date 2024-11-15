@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mouth Exercise Timers</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+	<div>
+	Perform the mouth exercise for 2 minutes
+	</div>
+	<br></br>
+    <div class="timer-container" id="timer1-container">
+      <div>Timer 1 - Default 2 minutes</div>
+      <div class="timer" id="timer1" onclick="togglePause(1)">02:00</div>
+      <div class="buttons">
+        <button onclick="startTimer(1)">Start</button>
+        <button onclick="resetTimer(1)">Reset</button>
+      </div>
+    </div>
+	<div>
+	Perform the mouth exercise for 5 minutes
+	</div>
+	<br></br>
+    <div class="timer-container" id="timer2-container">
+      <div>Timer 2 - Default 5 minutes</div>
+      <div class="timer" id="timer2" onclick="togglePause(2)">05:00</div>
+      <div class="buttons">
+        <button onclick="startTimer(2)">Start</button>
+        <button onclick="resetTimer(2)">Reset</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
